@@ -1,6 +1,6 @@
 Package.describe({
     name: 'omega:json-protocol',
-    version: '1.0.0',
+    version: '1.0.1',
     summary: 'JSON protocol to send arbitrary data over Meteor\'s websocket',
     git: 'https://github.com/wojtkowiak/meteor-custom-protocol',
     documentation: 'README.md'
@@ -8,7 +8,6 @@ Package.describe({
 
 Package.onUse(function onUse(api) {
     api.versionsFrom('1.4');
-    api.use('isobuild:compiler-plugin@1.0.0');
     api.use('ecmascript');
     api.use('underscore');
     api.use('omega:custom-protocol@=4.0.2');
